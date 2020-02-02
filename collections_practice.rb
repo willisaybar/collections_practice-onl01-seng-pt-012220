@@ -23,11 +23,15 @@ def swap_elements(array)
   array
 end
 
+# def reverse_array(array)
+#   new_array = []
+#   array.sort! do |a, b, c|
+#   puts array.reverse.join(' ')
+#   end
+# end
+
 def reverse_array(array)
-  new_array = []
-  array.sort! do |a, b, c|
-  puts array.reverse.join(' ')
-  end
+  array.reverse
 end
 
 def kesha_maker(array)
